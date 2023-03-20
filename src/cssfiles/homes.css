@@ -1,0 +1,19 @@
+.body{
+    margin: 0px;
+}
+.slider{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border:20px;
+}
+.dev{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:0px
+}
+.dev p,li{
+    font-weight: bold;
+}

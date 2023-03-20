@@ -1,0 +1,104 @@
+
+html body{
+    margin-top: 0px;
+    margin-bottom: -22px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url("./bgimage.jpg");
+
+  }
+  .img1{
+    float:left;
+    padding-right: 0px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    
+
+
+  }
+  .img2{
+    float:left;
+    padding-top: 5%;
+    width:"20%";
+    height:"10%";
+
+  }
+
+  .topnav ul {
+    list-style-type: none;
+    margin: 0px 0px;
+    padding: 16px 0px;
+    overflow: hidden;
+
+    list-style-type: none;
+  }
+
+  .topnav ul li {
+    float: left;
+    font-size: 11px;
+  }
+
+  .topnav ul li {
+    text-align: center;
+    margin: 27px 19px 19px 19px;
+    overflow: hidden;
+  }
+
+  .topnav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  .topnav li:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgb(36, 36, 36);
+    margin: 27px 19px 19px 19px;
+  }
+
+
+  .nav {
+    width: 150px;
+    height: 60px;
+    font-size: 21px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: Yellow;
+    font-color:Yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    position: relative;
+    transition: all 0.5s;
+    z-index: 1;
+   }
+
+   .nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background-color: white;
+    z-index: -1;
+    transition: all 0.5s;
+   }
+
+  .nav:hover::before {
+    width: 100%;
+   }
+
+   .nav:hover {
+    color: blue;
+   }
+
+   .nav:active:before {
+    background: #b9b9b9;
+   }
+
+  .dev{
+     text-decoration: solid;
+   }
